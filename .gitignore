@@ -1,0 +1,21 @@
+# Binaires
+bin/
+*.exe
+*.o
+*.obj
+
+# Archives individuelles (hors livrable)
+_archives/
+
+# Fichiers temporaires / IDE
+.vscode/
+.idea/
+*.odt
+*.depend
+*.layout
+*.cbp
+Thumbs.db
+Desktop.ini
+
+# Donnees intermediaires GNUPLOT (regenerables)
+visualisation/data/*.dat
